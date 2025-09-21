@@ -24,7 +24,7 @@ void addTask(Task tasks[], int& taskCount) {
         return;
     }
 
-    cin.ignore(); // clear buffer before getline
+    cin.ignore(); 
     cout << "Enter task description: ";
     getline(cin, tasks[taskCount].description);
     tasks[taskCount].completed = false;
